@@ -1,0 +1,31 @@
+{
+    "name": "T3 Stack TypeScript + Prisma + Postgres Development",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "forwardPorts": [
+        3000
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "eamodio.gitlens",
+                "gruntfuggly.todo-tree",
+                "mhutchie.git-graph",
+                "ms-vscode.vscode-typescript-next",
+                "oderwat.indent-rainbow",
+                "prisma.prisma",
+                "bradlc.vscode-tailwindcss"
+            ],
+            "settings": {
+                // Specifies the default terminal.
+                "terminal.integrated.defaultProfile.linux": "sh"
+                // Add any additional settings here.
+            }
+        }
+    },
+    "postCreateCommand": "npm install && npm run db:push && npm run dev",
+    "shutdownAction": "stopCompose"
+}
