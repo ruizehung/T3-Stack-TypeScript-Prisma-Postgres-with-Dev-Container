@@ -4,7 +4,7 @@ This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3
 
 This repo assume you use T3 Stack with TypeScript + tRPC + Prisma + NextAuth.js + Tailwind CSS with PostgreSQL.
 
-## Pre-requisites
+## Set Up
 1. [Install VS Code](https://code.visualstudio.com/)
 2. [Install Docker](https://code.visualstudio.com/docs/devcontainers/tutorial#_install-docker)
 3. [Install VS Code Dev Containers Extension](https://code.visualstudio.com/docs/devcontainers/tutorial#_install-the-extension)
@@ -12,7 +12,7 @@ This repo assume you use T3 Stack with TypeScript + tRPC + Prisma + NextAuth.js 
 5. Copy `.env.example` to `.env` and fill in the necessary environment variables.
     - For now, you need to fill in `DISCORD_CLIENT_ID` and `DISCORD_CLIENT_SECRET` obtained from [Discord Developer Portal](https://discord.com/developers/applications).
 6. [Open this repository in a VS Code Dev Container](https://code.visualstudio.com/docs/devcontainers/containers#_quick-start-open-an-existing-folder-in-a-container)
-7. The default `postCreateCommand` is `npm install && npm run db:push && npm run dev`. Once it's done, you should be able to visit `http://localhost:3000` to see the app running.
+7. After the `postCreateCommand` - `npm install` is done, run `npm run db:push && npm run dev` to start the development server.
     
 ## What's next? How do I make an app with this?
 
