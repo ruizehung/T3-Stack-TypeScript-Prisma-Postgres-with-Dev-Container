@@ -18,12 +18,7 @@
                 "oderwat.indent-rainbow",
                 "prisma.prisma",
                 "bradlc.vscode-tailwindcss"
-            ],
-            "settings": {
-                // Specifies the default terminal.
-                "terminal.integrated.defaultProfile.linux": "sh"
-                // Add any additional settings here.
-            }
+            ]
         }
     },
     "postCreateCommand": "npm install && npm run db:push && npm run dev",
