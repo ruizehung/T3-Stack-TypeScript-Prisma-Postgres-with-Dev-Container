@@ -9,6 +9,7 @@
     "customizations": {
         "vscode": {
             "extensions": [
+                "bradlc.vscode-tailwindcss",
                 "dbaeumer.vscode-eslint",
                 "esbenp.prettier-vscode",
                 "eamodio.gitlens",
@@ -17,7 +18,7 @@
                 "ms-vscode.vscode-typescript-next",
                 "oderwat.indent-rainbow",
                 "prisma.prisma",
-                "bradlc.vscode-tailwindcss"
+                "wix.glean"
             ]
         }
     },
